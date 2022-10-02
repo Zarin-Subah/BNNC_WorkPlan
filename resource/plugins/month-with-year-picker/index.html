@@ -1,0 +1,39 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>jQuery Simple MonthPicker Demos</title>
+<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+<link href="monthpicker.css" rel="stylesheet" type="text/css">
+</head>
+
+<body style="background-color:#ececec">
+<div id="jquery-script-menu">
+<div class="jquery-script-center">
+<div class="jquery-script-clear"></div>
+</div>
+</div>
+<div class="container" style="margin:150px auto 50px auto; max-width:640px;">
+<h2>Pick a month range:</h2>
+<input id="fromDate" type="text" />
+<input id="toDate" type="text" />
+</div>
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="monthpicker.min.js"></script>
+<script>
+$('#fromDate').Monthpicker({
+        onSelect: function () {
+            $('#toDate').Monthpicker('option', { minValue: $('#fromDate').val() });
+        }
+    });
+    $('#toDate').Monthpicker({
+        onSelect: function () {
+            $('#fromDate').Monthpicker('option', { maxValue: $('#toDate').val() });
+        }
+    });
+</script>
+</body>
+</html>

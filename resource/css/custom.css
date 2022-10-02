@@ -1,0 +1,139 @@
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 2.3;
+    color: inherit;
+}
+.head-title .title{
+    font-size: 20px;
+    font-weight: bold;
+    line-height:50px;
+}
+.graph-group-heading{
+    font-size:18px;
+    font-weight: bold;
+}
+.card-header{
+    background-color: #a9d1f5;
+}
+.no-padding{
+    padding:0px !important;
+}
+.info-box {
+    box-shadow: 0 0 1px rgba(0,0,0,.125), 0 1px 3px rgba(0,0,0,.2);
+    border-radius: .25rem;
+    background: #fff;
+    min-height: 80px;
+    padding: .5rem;
+    position: relative;
+}
+.d-flex, .info-box, .info-box .info-box-icon {
+    display: -ms-flexbox !important;
+    display: flex !important;
+}
+.justify-content-center, .info-box .info-box-icon {
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+}
+.align-items-center, .info-box .info-box-icon {
+    -ms-flex-align: center !important;
+    align-items: center !important;
+}
+.info-box .info-box-icon {
+    border-radius: 0.25rem;
+    display: block;
+    font-size: 1.875rem;
+    text-align: center;
+    width: 70px;
+}
+.info-box .info-box-icon > img {
+    max-width: 100%;
+}
+.elevation-1, [class*='sidebar-light-'] .nav-sidebar > .nav-item > .nav-link.active, [class*='sidebar-dark-'] .nav-sidebar > .nav-item > .nav-link.active, .callout {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24) !important;
+    color:white;
+}
+.info-box .info-box-content {
+    -ms-flex: 1;
+    flex: 1;
+    padding: 5px 10px;
+}
+.info-box .progress-description,
+.info-box .info-box-text {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 16px;
+}
+.info-box .info-box-number {
+    display: block;
+    font-weight: 700;
+}
+.login-heading{
+    font-size:19px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color:#148367;
+    text-align: center;
+}
+.align-items-center{
+    border-radius: 100px;
+}
+.credit{
+    font-size:14px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: center;
+    color:#148367;
+    margin-bottom: 3px;
+}
+.credit-logo{
+    text-align: center;
+}
+.login-screen {
+    padding-top: 15px;
+}
+.card .card-header {
+    background: #cfe0e8;
+    border-bottom: 1px solid #ebedf5;
+    font-size: 1rem;
+    padding: .75rem 1rem;
+    position: relative;
+    color: black;
+}
+.card .card-header-custom{
+    background: #E9EBEC;
+    border-bottom: 1px solid #ebedf5;
+    font-size: 1rem;
+    padding: .35rem 1rem;
+    position: relative;
+    color: #148367;
+}
+.bootbox-alert{
+    color:red;
+    font-size:18px;
+    font-weight: bold;
+}
+.dashboard_number{
+    font-size:12px;
+    font-weight: bold;
+}
+.pull-right{
+  float: right !important;
+}
+.side-nav .unifyMenu > li.selected > a {
+    color: #000;
+    background: #cfe0e8;
+}
+.app-header {
+    padding: 0;
+    background: #bddfff;
+    border-bottom: 1px solid #e8ebf4;
+    position: fixed;
+    z-index: 1020;
+    top: 0;
+    left: 0;
+    right: 0;
+}

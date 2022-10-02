@@ -1,0 +1,33 @@
+#w {
+    position: relative;
+    height: 400px;
+    width: 400px;
+}
+
+#d1, #d2 {
+    position: absolute;
+}
+
+#d1 {
+    top: 0px;
+    left: 0px;
+}
+
+#d2 {
+    border-radius: 150px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#canvas-holder{
+	background-image: url('maternal.png');
+	background-size:150px 150px;
+	background-position:140px 140px;
+	background-repeat: no-repeat;
+}
+#canvas-holder2{
+	background-image: url('child.png');
+	background-size:150px 110px;
+	background-position:140px 140px;
+	background-repeat: no-repeat;
+}
